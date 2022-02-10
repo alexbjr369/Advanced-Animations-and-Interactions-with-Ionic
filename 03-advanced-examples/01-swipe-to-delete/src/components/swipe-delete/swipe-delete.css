@@ -1,0 +1,22 @@
+:host {
+  display: grid;
+  height: 50px;
+  background-color: #2ecc71;
+}
+
+div {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1;
+  align-items: center;
+}
+
+div ion-icon {
+  margin-left: 20px;
+  color: #fff;
+}
+
+ion-item {
+  grid-row: 1;
+  grid-column: 1;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "default",
+  "private": true,
+  "version": "0.0.1",
+  "description": "default",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@ionic/core": "^5.9.3",
+    "@stencil/core": "^2.12.0",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "puppeteer": "^13.0.1",
+    "stylelint": "^14.2.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^5.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+ion-item {
+  --ion-item-background: #f6f6f6;
+
+  margin: 20px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.13);
+  animation: pop-in 0.2s calc(var(--animation-order) * 70ms) both ease-in;
+}
+
+ion-label {
+  padding: 10px;
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.6) translateY(-8px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
